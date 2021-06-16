@@ -71,7 +71,7 @@ addAxis <- function(graph, breaks = NULL, name = waiver(), labels = waiver(), li
 
 }
 
-#' @title Deprecated: draw an empty ggplot with just axes.
+#' @title Deprecated: use ggplot2::ggplot in combination with ggplot2::scale_x|y_continuous.
 #'
 #' @param graph ggplot object.
 #' @param xName name for x-axis.
