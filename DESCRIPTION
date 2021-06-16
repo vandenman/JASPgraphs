@@ -19,5 +19,4 @@ Imports:
     RColorBrewer,
     rlang,
     scales,
-    stringr,
     viridisLite

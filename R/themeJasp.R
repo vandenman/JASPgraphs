@@ -44,14 +44,14 @@ themeJasp = function(graph,
 
     if (horizontal) {
       if (!xAxis)
-        sides <- stringr::str_remove(sides, "l")
+        sides <- str_remove_all(sides, "l")
       if (!yAxis)
-        sides <- stringr::str_remove(sides, "b")
+        sides <- str_remove_all(sides, "b")
     } else {
       if (!xAxis)
-        sides <- stringr::str_remove(sides, "b")
+        sides <- str_remove_all(sides, "b")
       if (!yAxis)
-        sides <- stringr::str_remove(sides, "l")
+        sides <- str_remove_all(sides, "l")
     }
     if (sides == "")
       bty <- NULL
