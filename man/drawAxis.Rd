@@ -2,7 +2,7 @@
 % Please edit documentation in R/functions.R
 \name{drawAxis}
 \alias{drawAxis}
-\title{Deprecated: use ggplot2::ggplot in combination with ggplot2::scale_x|y_continuous.}
+\title{Deprecated: use \code{ggplot2::ggplot() + ggplot2::scale_x|y_continuous(...)} instead.}
 \usage{
 drawAxis(
   graph = NULL,
@@ -57,5 +57,5 @@ drawAxis(
 \item{yTrans}{transformation function for the y-axis.}
 }
 \description{
-Deprecated: use ggplot2::ggplot in combination with ggplot2::scale_x|y_continuous.
+Deprecated: use \code{ggplot2::ggplot() + ggplot2::scale_x|y_continuous(...)} instead.
 }
