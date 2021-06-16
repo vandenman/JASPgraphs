@@ -2,7 +2,7 @@
 % Please edit documentation in R/themeJasp.R
 \name{themeJasp}
 \alias{themeJasp}
-\title{JASP theme for ggplot2 objects}
+\title{Deprecated: use \link{themeJaspRaw} and \link{geom_rangeframe} instead.}
 \usage{
 themeJasp(
   graph,

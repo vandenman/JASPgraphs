@@ -1,7 +1,7 @@
 #' @importFrom ggplot2 element_line element_text element_rect margin coord_flip element_blank
 #' @importFrom grid unit
 
-#' @title JASP theme for ggplot2 objects
+#' @title Deprecated: use \link{themeJaspRaw} and \link{geom_rangeframe} instead.
 #' @description
 #' `r lifecycle::badge("deprecated")`
 #'
