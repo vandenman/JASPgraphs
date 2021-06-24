@@ -13,7 +13,7 @@ dfPoints <- data.frame(
   g = c("Prior", "Posterior")
 )
 
-print(PlotPriorAndPosterior(dfLines, dfPoints))
+PlotPriorAndPosterior(dfLines, dfPoints)
 
 # add BF pizza
 BF10 <- dnorm(0, 1, .5) / dnorm(0, 0, 1)
