@@ -1,5 +1,8 @@
 # jaspGraphs
 
+[![R build status](https://github.com/jasp-stats/jaspGraphs/workflows/rcmdcheck/badge.svg)](https://github.com/jasp-stats/jaspGraphs/actions)
+[![Documentation](https://img.shields.io/badge/doc-latest-blue.svg)](https://vandenman.github.io/jaspGraphs)
+
 
 ## Overview
 
