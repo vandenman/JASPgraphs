@@ -46,14 +46,6 @@ themeJasp(
 \item{axisTickLength}{length of axis ticks.}
 
 \item{axisTickWidth}{width of axis ticks.}
-
-\item{legend.cex}{magnification of the font size for the legend.}
-
-\item{Xvjust}{adjustment of x-axis tick labels}
-
-\item{Yvjust}{adjustment of y-axis tick labels}
-
-\item{legend.title}{should legend have a title?}
 }
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}

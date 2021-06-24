@@ -9,9 +9,6 @@
 #'
 #' @param xAxis Should there be a horizontal line for the x-axis?
 #' @param yAxis Should there be a horizontal line for the x-axis?
-#' @param legend.cex magnification of the font size for the legend.
-#' @param Xvjust adjustment of x-axis tick labels
-#' @param Yvjust adjustment of y-axis tick labels
 #' @param graph a ggplot2 object
 #' @param sides see \link{geom_rangeframe}
 #' @param axis.title.cex scalar magnification for the title of the axes.
@@ -19,7 +16,6 @@
 #' @param fontsize global font size.
 #' @param family global font familiy.
 #' @param horizontal flip graph?
-#' @param legend.title should legend have a title?
 #' @param legend.position where should the legend be?
 #' @param legend.justification see theme
 #' @param axisTickLength length of axis ticks.
